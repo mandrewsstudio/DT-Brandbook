@@ -1,0 +1,431 @@
+﻿textarea, input[type="text"], input[type="button"], input[type="submit"], input, button {
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.heystudio_repeater_container {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table {
+    display: table;
+    width: 100%;
+    background: #fff;
+    border-spacing: 0;
+    border-radius: 0;
+    table-layout: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    clear: both;
+    box-sizing: content-box;
+    margin: 0 0 8px;
+    background: #F9F9F9;
+    border-collapse: collapse;
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head {
+    display: table-row-group;
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head .repeater_row {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head .repeater_cell {
+    position: relative;
+    color: #333333;
+    border-color: #d5d9dd;
+    border-width: 1px 1px 1px 1px;
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head .repeater_cell:first-child {
+    /* border-left-width: 0; */
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head .repeater_cell.index_cell {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head .repeater_cell.field_cell {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head .repeater_cell.action_cell {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_body {
+    display: table-row-group;
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_body .repeater_row {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_body .repeater_row .repeater_cell {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_body .repeater_row .repeater_cell.index_cell {
+    background: #f4f4f4;
+    cursor: move;
+    color: #aaa;
+    text-shadow: #fff 0 1px 0;
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_body .repeater_row .repeater_cell.field_cell {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_body .repeater_row .repeater_cell.action_cell {
+}
+
+.heystudio_repeater_container .heystudio_repeater_table .heystudio_repeater_table_head {
+}
+
+.repeater_row {
+    display: table-row;
+}
+
+.repeater_cell {
+    padding: 8px;
+    vertical-align: top;
+    background: #fff;
+    text-align: left;
+    border-style: solid;
+    font-weight: normal;
+    display: table-cell;
+    border-width: 1px;
+    border-color: #d5d9dd;
+}
+
+.repeater_cell.index_cell {
+    width: 16px;
+    text-align: center !important;
+    vertical-align: middle !important;
+    position: relative;
+}
+
+.repeater_cell.field_cell {
+}
+
+.repeater_cell.action_cell {
+    width: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.repeater_cell.field_cell input, .repeater_cell.field_cell textarea {
+    width: 100%;
+    padding: 4px 8px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.repeater_cell.field_cell textarea {
+    height: 338px;
+    resize: none;
+}
+
+.heystudio_news_repeater_container .repeater_cell.field_cell textarea {
+    height: 120px;
+}
+
+.heystudio_repeater_footer {
+    padding: 15px 8px;
+    text-align: right;
+    background: #f4f4f4;
+    border: 1px solid #d5d9dd;
+    border-top: 0;
+}
+
+.heystudio_field {
+    width: 100%;
+}
+
+textarea.heystudio_field {
+    width: 100%;
+    resize: none;
+    height: 100px;
+}
+
+.heystudio_field_container {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d5d9dd;
+}
+
+.heystudio_field_container label {
+    font-size: 14px;
+    padding: 8px 3px 6px 3px;
+    margin: 0;
+    line-height: 1.4;
+    display: block;
+    color: #1d2327;
+    font-weight: 600;
+    text-align: left;
+}
+
+.heystudio_image_field_container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #d5d9dd;
+}
+
+.heystudio_news_repeater_container .heystudio_image_field_container, .favicon_image_module .heystudio_image_field_container {
+    width: 120px;
+    height: 120px;
+}
+
+.heystudio_image_field_content {
+    border: none;
+}
+
+.heystudio_image_field_container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    object-position: center;
+}
+
+.wp-core-ui .button.heystudio_remove_image_btn {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 3;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 14px;
+    text-transform: uppercase;
+    height: 20px;
+    min-height: unset;
+    line-height: 20px;
+    text-align: center;
+    width: 25px;
+    padding: 0;
+    font-size: 11px;
+}
+
+.heystudio_image_field_container:not(.has_image) .heystudio_remove_image_btn {
+    display: none;
+}
+
+.has_image .heystudio_remove_image_btn {
+    display: block;
+}
+
+.heystudio_upload_image_btn {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.has_image .heystudio_upload_image_btn {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.has_image.heystudio_image_field_container img {
+    display: block;
+}
+
+.image-set {
+    padding: 0 5px;
+}
+
+.image-set:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.image-set .image-set-column {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 10px 5px;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.image-set[columns="2"] {
+}
+
+.image-set[columns="2"] .image-set-column {
+    width: 50%;
+}
+
+.image-set[columns="3"] {
+}
+
+.image-set[columns="3"] .image-set-column {
+    width: 33.33%;
+}
+
+.image-set[columns="4"] {
+}
+
+.image-set[columns="4"] .image-set-column {
+    width: 25%;
+}
+
+.heystudio_flexible_content_container {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table {
+    display: table;
+    width: 100%;
+    background: #fff;
+    border-spacing: 0;
+    border-radius: 0;
+    table-layout: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    clear: both;
+    box-sizing: content-box;
+    margin: 0;
+    background: #F9F9F9;
+    border-collapse: collapse;
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head {
+    display: table-row-group;
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head .flexible_content_row {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head .flexible_content_cell {
+    position: relative;
+    color: #333333;
+    border-color: #d5d9dd;
+    border-width: 1px 1px 1px 1px;
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head .flexible_content_cell:first-child {
+    /* border-left-width: 0; */
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head .flexible_content_cell.index_cell {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head .flexible_content_cell.field_cell {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head .flexible_content_cell.action_cell {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_body {
+    display: table-row-group;
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_body .flexible_content_row {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_body .flexible_content_row .flexible_content_cell {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_body .flexible_content_row .flexible_content_cell.index_cell {
+    background: #f4f4f4;
+    cursor: move;
+    color: #aaa;
+    text-shadow: #fff 0 1px 0;
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_body .flexible_content_row .flexible_content_cell.field_cell {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_body .flexible_content_row .flexible_content_cell.action_cell {
+}
+
+.heystudio_flexible_content_container .heystudio_flexible_content_table .heystudio_flexible_content_table_head {
+}
+
+.flexible_content_row {
+    display: table-row;
+}
+
+.flexible_content_cell {
+    padding: 8px;
+    vertical-align: top;
+    background: #fff;
+    text-align: left;
+    border-style: solid;
+    font-weight: normal;
+    display: table-cell;
+    border-width: 1px;
+    border-color: #d5d9dd;
+}
+
+.flexible_content_cell.index_cell {
+    width: 16px;
+    text-align: center !important;
+    vertical-align: middle !important;
+    position: relative;
+}
+
+.flexible_content_cell.field_cell {
+}
+
+.flexible_content_cell.action_cell {
+    width: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.flexible_content_cell.field_cell input, .flexible_content_cell.field_cell textarea {
+    width: 100%;
+    padding: 4px 8px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.flexible_content_cell .heystudio_image_field_container {
+    margin: auto;
+}
+
+.heystudio_flexible_content_footer {
+    padding: 15px 8px;
+    text-align: right;
+    background: #f4f4f4;
+    border: 1px solid #d5d9dd;
+    border-top: 0;
+}
+
+.heystudio_flexible_content_footer_select {
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.heystudio_flexible_content_footer_select label {
+    font-size: 14px;
+    /* padding: 8px 3px 6px 3px; */
+    margin: 0;
+    line-height: 1.4;
+    color: #1d2327;
+    font-weight: 600;
+}
+
+.heystudio_flexible_content_footer_select select {
+    height: 40px;
+    display: inline-block;
+    min-width: 120px;
+}
+
+.heystudio_flexible_content_footer button {
+    vertical-align: middle
+}

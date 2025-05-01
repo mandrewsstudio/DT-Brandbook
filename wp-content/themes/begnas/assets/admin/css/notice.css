@@ -1,0 +1,49 @@
+/** ======================================== Admin Notices ======================================== **/
+
+.begnas-welcome-notice {
+    max-width: 700px;
+    padding: 0;
+}
+
+.begnas-welcome-notice__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.begnas-welcome-notice__text,
+.begnas-welcome-notice__buttons {
+    padding: 10px;
+}
+
+.begnas-welcome-notice__buttons {    
+    flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+
+    .begnas-welcome-notice__content {
+        flex-direction: row;
+    }
+
+    .begnas-welcome-notice__text {
+        border-right: 1px solid #c3c4c7;
+    }
+}
+
+.begnas-welcome-notice h2 {
+    margin-top: 0;
+}
+
+.begnas-welcome-notice p {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.begnas-welcome-notice__buttons .button {
+    margin-top: 6px;
+}
+
+.begnas-welcome-notice__buttons .button:first-child {
+    margin-top: 0;
+}

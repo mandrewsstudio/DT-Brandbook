@@ -1,0 +1,428 @@
+# Copyright (C) 2024 ArtifyWeb
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Begnas 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/begnas\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-16T13:01:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: begnas\n"
+
+#. Theme Name of the theme
+msgid "Begnas"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://artifyweb.com/begnas-theme/"
+msgstr ""
+
+#. Description of the theme
+msgid "Begnas WordPress Block Theme – build a stunning website with ease. Using beautifully designed blocks and patterns, this theme keeps things simple while offering flexibility for personal blog, business, or news/magazine sites."
+msgstr ""
+
+#. Author of the theme
+msgid "ArtifyWeb"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://artifyweb.com/"
+msgstr ""
+
+#: inc/admin/admin.php:47
+msgid "Thanks for installing Begnas theme"
+msgstr ""
+
+#: inc/admin/admin.php:48
+msgid "Welcome to Begnas Theme! To ensure a smooth onboarding experience, we've compiled some helpful resources for you"
+msgstr ""
+
+#: inc/admin/admin.php:52
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/admin/admin.php:53
+msgid "Read Blog"
+msgstr ""
+
+#: inc/admin/admin.php:54
+msgid "Contact Support"
+msgstr ""
+
+#: inc/admin/admin.php:83
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/admin.php:88
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/scripts.php:50
+msgid "Landing Pages"
+msgstr ""
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner / Hero (Business CTA)"
+msgstr ""
+
+#: patterns/banner.php:27
+msgid "Your Gateway to Stunning Websites!"
+msgstr ""
+
+#: patterns/banner.php:33
+msgid "Your Premier Block Theme for Crafting Limitless Possibilities. Discover the Power of Multipurpose Design!"
+msgstr ""
+
+#: patterns/banner.php:42
+msgid "Get Started - Free"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer bar with centered copyright"
+msgstr ""
+
+#. Translators: Copyright Year
+#: patterns/footer.php:19
+msgid "Copyright © %d - "
+msgstr ""
+
+#. Translators: WordPress Theme by ArtifyWeb
+#: patterns/footer.php:36
+msgid " - WordPress Theme by %1$s."
+msgstr ""
+
+#: patterns/header-2.php
+msgctxt "Pattern title"
+msgid "Main Header (Logo and navigation left, search right)"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Main Header (Logo left, navigation and search right)"
+msgstr ""
+
+#: patterns/header.php:25
+msgctxt "search form label"
+msgid "Search"
+msgstr ""
+
+#: patterns/header.php:25
+msgctxt "search button text"
+msgid "Search"
+msgstr ""
+
+#: patterns/logos.php
+msgctxt "Pattern title"
+msgid "Logos (Clients/Companies)"
+msgstr ""
+
+#: patterns/media-text.php
+msgctxt "Pattern title"
+msgid "Media & Text (About CTA)"
+msgstr ""
+
+#: patterns/media-text.php:21
+msgid "About Begnas"
+msgstr ""
+
+#: patterns/media-text.php:25
+msgid "Sum dolor sit amet consectetur. Nisi cras porta commodo commodo elit lacus. At et in neque morbi eros nulla arcu. Scelerisque in dolor sagittis mattis id. Porttitor at bibendum a ut."
+msgstr ""
+
+#: patterns/media-text.php:29
+msgid "At pretium eu lacus bibendum magna cras. Sit ligula nec platea suspendisse et adipiscing. Sed ultrices morbi felis sem vel faucibus massa hendrerit. Tortor nunc hendrerit tincidunt et. Pharetra molestie hendrerit eu mi lorem magnis sit est. Porttitor viverra aenean."
+msgstr ""
+
+#: patterns/media-text.php:34
+msgid "Sapien vehicula ornare enim felis donec et egestas. Scelerisque porttitor montes auctor tortor. Risus natoque mattis tristique amet nunc egestas odio volutpat est. Bibendum urna risus elit aliquam sed viverra tellus. Arcu sit est id placerat massa quisque nisl non. Et."
+msgstr ""
+
+#: patterns/media-text.php:42
+msgid "More About Theme"
+msgstr ""
+
+#: patterns/page-landing.php
+msgctxt "Pattern title"
+msgid "Business Landing Page"
+msgstr ""
+
+#: patterns/posts.php
+msgctxt "Pattern title"
+msgid "Posts, 1 Column"
+msgstr ""
+
+#: patterns/posts.php:64
+msgid "No results found"
+msgstr ""
+
+#: patterns/posts.php:69
+msgid "We could not find any results for your search. Use more generic words or double check your spelling."
+msgstr ""
+
+#: patterns/services.php
+msgctxt "Pattern title"
+msgid "Services (3 columns boxes with Heading/Description)"
+msgstr ""
+
+#: patterns/services.php:13
+msgid "Our Services"
+msgstr ""
+
+#: patterns/services.php:17
+msgid "Mauris bibendum fringilla leo blandit sed. Sem orci vivamus fusce odio at interdum habitant. Quisque ultrices duis neque consequat nulla proin."
+msgstr ""
+
+#: patterns/services.php:27
+msgid "Brand Strategy"
+msgstr ""
+
+#: patterns/services.php:31
+msgid "Dolor sit amet consectetur. Non non morbi facilisis neque feugiat eget et scelerisque."
+msgstr ""
+
+#: patterns/services.php:36
+#: patterns/services.php:58
+#: patterns/services.php:80
+msgid "Learn More"
+msgstr ""
+
+#: patterns/services.php:49
+msgid "Brand Identity"
+msgstr ""
+
+#: patterns/services.php:53
+msgid "Mor dolor sit amet consectetur. Non non morbi facilisis neque feugiat eget et scelerisque."
+msgstr ""
+
+#: patterns/services.php:71
+msgid "Digital Marketing"
+msgstr ""
+
+#: patterns/services.php:75
+msgid "Feugiat sit amet consectetur. Non non morbi facilisis neque feugiat eget et scelerisque."
+msgstr ""
+
+#: patterns/template-404.php
+msgctxt "Pattern title"
+msgid "Template 404 Page"
+msgstr ""
+
+#: patterns/template-404.php:14
+msgid "404"
+msgstr ""
+
+#: patterns/template-404.php:21
+msgid "Oops! Page Not Found"
+msgstr ""
+
+#: patterns/template-404.php:29
+msgid "We're sorry, the page you requested could not be found. Please go back to the homepage."
+msgstr ""
+
+#: patterns/template-404.php:39
+msgid "Go to Homepage"
+msgstr ""
+
+#: patterns/template-single.php
+msgctxt "Pattern title"
+msgid "Template Single Post"
+msgstr ""
+
+#: patterns/testimonial.php
+msgctxt "Pattern title"
+msgid "Testimonial (Quote with background image)"
+msgstr ""
+
+#. Translators: Testimonial pattern highlighted text markup
+#: patterns/testimonial.php:26
+msgid "Collaborative Design Process:"
+msgstr ""
+
+#. Translators: WordPress Theme by ArtifyWeb
+#: patterns/testimonial.php:30
+msgid "%1$s Delving deep into your brand essence, we innovate solutions and meticulously craft exceptional experiences to ensure success."
+msgstr ""
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary 500"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary 50"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary 500 Opacity 4%"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 900"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 800"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 700"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 500"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 400"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 300"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 100"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 0"
+msgstr ""
+
+#: styles/dark.json
+#: theme.json
+msgctxt "Color name"
+msgid "Gray 0 Opacity 65%"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Canvas with Header and Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "10"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "20"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "30"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "40"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "50"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "60"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "70"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "80"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "90"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "100"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "2X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""

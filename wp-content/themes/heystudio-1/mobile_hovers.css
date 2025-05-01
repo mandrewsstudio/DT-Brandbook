@@ -1,0 +1,21 @@
+.underline.inverted_underline.mobile_hover:after{
+	width:0%;
+}
+.underline.mobile_hover:after{
+    width:100%;
+}
+.filters_container .filter_options .filter_labels_container .categories_filters_option.mobile_hover{
+    	background:white;
+	color:black;
+
+
+}
+.main_grid_container .main_grid .grid_item a.mobile_hover .grid_item_image .grid_item_image_ob{
+	 transform: scale(1.03);
+}
+.news_slider_container .news_slider_container_wrapper .swiper .swiper-wrapper .swiper-slide .news_item.mobile_hover .news_item_container .news_item_image .news_item_image_ob {
+		 transform: scale(1.04);
+}
+.main_menu ul li a.mobile_hover{
+	opacity:1;
+}
